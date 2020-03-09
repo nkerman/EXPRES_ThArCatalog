@@ -14,6 +14,9 @@ thidDatXdrDir ='/Users/nkerman/OneDrive - Yale University/Spring_2020/Thesis/ThA
 lineHistDir = plotsDir+ 'lineHist/'
 errorbarDir = plotsDir+ 'errorBars_I/'
 
+# %% ###PARAMS you need to check!
+totalNumThids = 701
+
 # %%
 df = pd.read_pickle(inputsDir +'total_dataFrame_AsOf200213.pkl')
 df.reset_index(inplace=True)
